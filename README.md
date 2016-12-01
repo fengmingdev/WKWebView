@@ -1,12 +1,12 @@
 # WKWebView
 WKWebView 支持POST请求 加载本地页面 直接加载网页 JS交互 集成支付宝/微信URL支付功能  仿微信返回按钮
+```
 /**
  加载纯外部链接网页
 
  @param string URL地址
  */
 - (void)loadWebURLSring:(NSString *)string;
-
 /**
  加载本地网页
  
@@ -21,3 +21,4 @@ WKWebView 支持POST请求 加载本地页面 直接加载网页 JS交互 集成
  @param postData post请求块
  */
 - (void)POSTWebURLSring:(NSString *)string postData:(NSString *)postData;
+```
