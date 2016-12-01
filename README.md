@@ -22,3 +22,6 @@ WKWebView 支持POST请求 加载本地页面 直接加载网页 JS交互 集成
  */
 - (void)POSTWebURLSring:(NSString *)string postData:(NSString *)postData;
 ```
+
+
+![Aaron Swartz](https://github.com/XFIOSXiaoFeng/WKWebView/blob/master/WKWebView/XFWkwebView/testimage.gif)
