@@ -20,6 +20,7 @@
 		B7C934781DE6BB9A0036667B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7C934761DE6BB9A0036667B /* LaunchScreen.storyboard */; };
 		B7C934831DE6BB9A0036667B /* WKWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C934821DE6BB9A0036667B /* WKWebViewTests.m */; };
 		B7C9348E1DE6BB9A0036667B /* WKWebViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C9348D1DE6BB9A0036667B /* WKWebViewUITests.m */; };
+		B7D51D7D1DEFD4A800981878 /* testimage.gif in Resources */ = {isa = PBXBuildFile; fileRef = B7D51D7C1DEFD4A800981878 /* testimage.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		B7C934891DE6BB9A0036667B /* WKWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7C9348D1DE6BB9A0036667B /* WKWebViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebViewUITests.m; sourceTree = "<group>"; };
 		B7C9348F1DE6BB9A0036667B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7D51D7C1DEFD4A800981878 /* testimage.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = testimage.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		B792FE591DE73A3600172FCE /* XFWkwebView */ = {
 			isa = PBXGroup;
 			children = (
+				B7D51D7C1DEFD4A800981878 /* testimage.gif */,
 				B77C4A7D1DEEA9D0005D5B7E /* backItemImage_hl@2x.png */,
 				B77C4A7E1DEEA9D0005D5B7E /* backItemImage@2x.png */,
 				B77516581DED808E002DA9F0 /* XFWKJSPOST.html */,
@@ -283,6 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7D51D7D1DEFD4A800981878 /* testimage.gif in Resources */,
 				B7C934781DE6BB9A0036667B /* LaunchScreen.storyboard in Resources */,
 				B77C4A7F1DEEA9D0005D5B7E /* backItemImage_hl@2x.png in Resources */,
 				B77C4A801DEEA9D0005D5B7E /* backItemImage@2x.png in Resources */,
