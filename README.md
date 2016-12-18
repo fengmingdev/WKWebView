@@ -16,7 +16,7 @@ WKWebView 支持POST请求 加载本地页面 直接加载网页 JS交互 集成
 
 /**
  加载外部链接POST请求(注意检查 XFWKJSPOST.html 文件是否存在 )
- post请求块 注意格式：@"\"username\":\"xxxx\",\"password\":\"xxxx\""
+ postData请求块 注意格式：@"\"username\":\"xxxx\",\"password\":\"xxxx\""
  
  @param string 需要POST的URL地址
  @param postData post请求块
