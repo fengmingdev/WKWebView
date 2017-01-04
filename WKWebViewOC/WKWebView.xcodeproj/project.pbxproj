@@ -7,11 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD:WKWebViewOC/WKWebView.xcodeproj/project.pbxproj
 		3AE0BBCF1E1D2E540013055C /* backItemImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AE0BBC91E1D2E540013055C /* backItemImage@2x.png */; };
 		3AE0BBD01E1D2E540013055C /* backItemImage_hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AE0BBCA1E1D2E540013055C /* backItemImage_hl@2x.png */; };
 		3AE0BBD11E1D2E540013055C /* testimage.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3AE0BBCB1E1D2E540013055C /* testimage.gif */; };
 		3AE0BBD21E1D2E540013055C /* WKJSPOST.html in Resources */ = {isa = PBXBuildFile; fileRef = 3AE0BBCC1E1D2E540013055C /* WKJSPOST.html */; };
 		3AE0BBD31E1D2E540013055C /* WkwebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE0BBCE1E1D2E540013055C /* WkwebView.m */; };
+=======
+		3AE0BC5D1E1D3ECA0013055C /* backItemImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AE0BC571E1D3ECA0013055C /* backItemImage@2x.png */; };
+		3AE0BC5E1E1D3ECA0013055C /* backItemImage_hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AE0BC581E1D3ECA0013055C /* backItemImage_hl@2x.png */; };
+		3AE0BC5F1E1D3ECA0013055C /* testimage.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3AE0BC591E1D3ECA0013055C /* testimage.gif */; };
+		3AE0BC601E1D3ECA0013055C /* WKJSPOST.html in Resources */ = {isa = PBXBuildFile; fileRef = 3AE0BC5A1E1D3ECA0013055C /* WKJSPOST.html */; };
+		3AE0BC611E1D3ECA0013055C /* WkwebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE0BC5C1E1D3ECA0013055C /* WkwebViewController.m */; };
+>>>>>>> a008a107a88042c64c491c597c71d058a9071a05:WKWebView.xcodeproj/project.pbxproj
 		B7569F7D1DE888C500305942 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7569F7C1DE888C500305942 /* JavaScriptCore.framework */; };
 		B7C9346A1DE6BB9A0036667B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C934691DE6BB9A0036667B /* main.m */; };
 		B7C9346D1DE6BB9A0036667B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C9346C1DE6BB9A0036667B /* AppDelegate.m */; };
@@ -41,12 +49,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD:WKWebViewOC/WKWebView.xcodeproj/project.pbxproj
 		3AE0BBC91E1D2E540013055C /* backItemImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backItemImage@2x.png"; sourceTree = "<group>"; };
 		3AE0BBCA1E1D2E540013055C /* backItemImage_hl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backItemImage_hl@2x.png"; sourceTree = "<group>"; };
 		3AE0BBCB1E1D2E540013055C /* testimage.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = testimage.gif; sourceTree = "<group>"; };
 		3AE0BBCC1E1D2E540013055C /* WKJSPOST.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = WKJSPOST.html; sourceTree = "<group>"; };
 		3AE0BBCD1E1D2E540013055C /* WkwebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WkwebView.h; sourceTree = "<group>"; };
 		3AE0BBCE1E1D2E540013055C /* WkwebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WkwebView.m; sourceTree = "<group>"; };
+=======
+		3AE0BC571E1D3ECA0013055C /* backItemImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backItemImage@2x.png"; sourceTree = "<group>"; };
+		3AE0BC581E1D3ECA0013055C /* backItemImage_hl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backItemImage_hl@2x.png"; sourceTree = "<group>"; };
+		3AE0BC591E1D3ECA0013055C /* testimage.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = testimage.gif; sourceTree = "<group>"; };
+		3AE0BC5A1E1D3ECA0013055C /* WKJSPOST.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = WKJSPOST.html; sourceTree = "<group>"; };
+		3AE0BC5B1E1D3ECA0013055C /* WkwebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WkwebViewController.h; sourceTree = "<group>"; };
+		3AE0BC5C1E1D3ECA0013055C /* WkwebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WkwebViewController.m; sourceTree = "<group>"; };
+>>>>>>> a008a107a88042c64c491c597c71d058a9071a05:WKWebView.xcodeproj/project.pbxproj
 		B7569F7C1DE888C500305942 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		B7C934651DE6BB9A0036667B /* WKWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7C934691DE6BB9A0036667B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -92,6 +109,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD:WKWebViewOC/WKWebView.xcodeproj/project.pbxproj
 		3AE0BBC81E1D2E540013055C /* WkwebView */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +119,17 @@
 				3AE0BBCC1E1D2E540013055C /* WKJSPOST.html */,
 				3AE0BBCD1E1D2E540013055C /* WkwebView.h */,
 				3AE0BBCE1E1D2E540013055C /* WkwebView.m */,
+=======
+		3AE0BC561E1D3ECA0013055C /* WkwebView */ = {
+			isa = PBXGroup;
+			children = (
+				3AE0BC571E1D3ECA0013055C /* backItemImage@2x.png */,
+				3AE0BC581E1D3ECA0013055C /* backItemImage_hl@2x.png */,
+				3AE0BC591E1D3ECA0013055C /* testimage.gif */,
+				3AE0BC5A1E1D3ECA0013055C /* WKJSPOST.html */,
+				3AE0BC5B1E1D3ECA0013055C /* WkwebViewController.h */,
+				3AE0BC5C1E1D3ECA0013055C /* WkwebViewController.m */,
+>>>>>>> a008a107a88042c64c491c597c71d058a9071a05:WKWebView.xcodeproj/project.pbxproj
 			);
 			path = WkwebView;
 			sourceTree = "<group>";
@@ -137,7 +166,11 @@
 		B7C934671DE6BB9A0036667B /* WKWebView */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD:WKWebViewOC/WKWebView.xcodeproj/project.pbxproj
 				3AE0BBC81E1D2E540013055C /* WkwebView */,
+=======
+				3AE0BC561E1D3ECA0013055C /* WkwebView */,
+>>>>>>> a008a107a88042c64c491c597c71d058a9071a05:WKWebView.xcodeproj/project.pbxproj
 				B7C9346B1DE6BB9A0036667B /* AppDelegate.h */,
 				B7C9346C1DE6BB9A0036667B /* AppDelegate.m */,
 				B7C9346E1DE6BB9A0036667B /* ViewController.h */,
@@ -287,10 +320,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD:WKWebViewOC/WKWebView.xcodeproj/project.pbxproj
 				3AE0BBD21E1D2E540013055C /* WKJSPOST.html in Resources */,
 				3AE0BBCF1E1D2E540013055C /* backItemImage@2x.png in Resources */,
 				3AE0BBD01E1D2E540013055C /* backItemImage_hl@2x.png in Resources */,
 				3AE0BBD11E1D2E540013055C /* testimage.gif in Resources */,
+=======
+				3AE0BC601E1D3ECA0013055C /* WKJSPOST.html in Resources */,
+				3AE0BC5D1E1D3ECA0013055C /* backItemImage@2x.png in Resources */,
+				3AE0BC5E1E1D3ECA0013055C /* backItemImage_hl@2x.png in Resources */,
+				3AE0BC5F1E1D3ECA0013055C /* testimage.gif in Resources */,
+>>>>>>> a008a107a88042c64c491c597c71d058a9071a05:WKWebView.xcodeproj/project.pbxproj
 				B7C934781DE6BB9A0036667B /* LaunchScreen.storyboard in Resources */,
 				B7C934751DE6BB9A0036667B /* Assets.xcassets in Resources */,
 				B7C934731DE6BB9A0036667B /* Main.storyboard in Resources */,
@@ -319,7 +359,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7C934701DE6BB9A0036667B /* ViewController.m in Sources */,
+<<<<<<< HEAD:WKWebViewOC/WKWebView.xcodeproj/project.pbxproj
 				3AE0BBD31E1D2E540013055C /* WkwebView.m in Sources */,
+=======
+				3AE0BC611E1D3ECA0013055C /* WkwebViewController.m in Sources */,
+>>>>>>> a008a107a88042c64c491c597c71d058a9071a05:WKWebView.xcodeproj/project.pbxproj
 				B7C9346D1DE6BB9A0036667B /* AppDelegate.m in Sources */,
 				B7C9346A1DE6BB9A0036667B /* main.m in Sources */,
 			);
