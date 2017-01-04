@@ -43,6 +43,6 @@ webView.loadUrlSting(string: url, postString: postString)
 
 ```
 
-![Aaron Swartz](https://github.com/XFIOSXiaoFeng/WKWebView/blob/master/WKWebView/XFWkwebView/testimage.gif)
+![Aaron Swartz](https://github.com/XFIOSXiaoFeng/WKWebView/blob/master/testimage.gif)
 
 
