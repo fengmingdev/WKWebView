@@ -1,6 +1,15 @@
-# WKWebView OC版 一款IOS8以后的web加载神器
+# WKWebView OC/Swift版 一款IOS8以后的web加载神器
 WKWebView 支持POST请求 加载本地页面 直接加载网页 JS交互 集成支付宝/微信URL支付功能  仿微信返回按钮
 ```
+允许访问HTTP链接
+HTTPS权限:
+<key>NSAppTransportSecurity</key>
+<dict>
+<key>NSAllowsArbitraryLoads</key>
+<true/>
+</dict>
+
+
 /**
  加载纯外部链接网页
 
