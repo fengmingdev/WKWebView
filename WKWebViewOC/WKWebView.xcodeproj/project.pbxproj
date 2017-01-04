@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AE0BBCF1E1D2E540013055C /* backItemImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AE0BBC91E1D2E540013055C /* backItemImage@2x.png */; };
+		3AE0BBD01E1D2E540013055C /* backItemImage_hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AE0BBCA1E1D2E540013055C /* backItemImage_hl@2x.png */; };
+		3AE0BBD11E1D2E540013055C /* testimage.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3AE0BBCB1E1D2E540013055C /* testimage.gif */; };
+		3AE0BBD21E1D2E540013055C /* WKJSPOST.html in Resources */ = {isa = PBXBuildFile; fileRef = 3AE0BBCC1E1D2E540013055C /* WKJSPOST.html */; };
+		3AE0BBD31E1D2E540013055C /* WkwebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE0BBCE1E1D2E540013055C /* WkwebView.m */; };
 		B7569F7D1DE888C500305942 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7569F7C1DE888C500305942 /* JavaScriptCore.framework */; };
-		B77516591DED808E002DA9F0 /* XFWKJSPOST.html in Resources */ = {isa = PBXBuildFile; fileRef = B77516581DED808E002DA9F0 /* XFWKJSPOST.html */; };
-		B77C4A7F1DEEA9D0005D5B7E /* backItemImage_hl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B77C4A7D1DEEA9D0005D5B7E /* backItemImage_hl@2x.png */; };
-		B77C4A801DEEA9D0005D5B7E /* backItemImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B77C4A7E1DEEA9D0005D5B7E /* backItemImage@2x.png */; };
-		B792FE611DE73A9000172FCE /* XFWkwebView.m in Sources */ = {isa = PBXBuildFile; fileRef = B792FE601DE73A9000172FCE /* XFWkwebView.m */; };
 		B7C9346A1DE6BB9A0036667B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C934691DE6BB9A0036667B /* main.m */; };
 		B7C9346D1DE6BB9A0036667B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C9346C1DE6BB9A0036667B /* AppDelegate.m */; };
 		B7C934701DE6BB9A0036667B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C9346F1DE6BB9A0036667B /* ViewController.m */; };
@@ -20,7 +21,6 @@
 		B7C934781DE6BB9A0036667B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7C934761DE6BB9A0036667B /* LaunchScreen.storyboard */; };
 		B7C934831DE6BB9A0036667B /* WKWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C934821DE6BB9A0036667B /* WKWebViewTests.m */; };
 		B7C9348E1DE6BB9A0036667B /* WKWebViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C9348D1DE6BB9A0036667B /* WKWebViewUITests.m */; };
-		B7D51D7D1DEFD4A800981878 /* testimage.gif in Resources */ = {isa = PBXBuildFile; fileRef = B7D51D7C1DEFD4A800981878 /* testimage.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,12 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3AE0BBC91E1D2E540013055C /* backItemImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backItemImage@2x.png"; sourceTree = "<group>"; };
+		3AE0BBCA1E1D2E540013055C /* backItemImage_hl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backItemImage_hl@2x.png"; sourceTree = "<group>"; };
+		3AE0BBCB1E1D2E540013055C /* testimage.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = testimage.gif; sourceTree = "<group>"; };
+		3AE0BBCC1E1D2E540013055C /* WKJSPOST.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = WKJSPOST.html; sourceTree = "<group>"; };
+		3AE0BBCD1E1D2E540013055C /* WkwebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WkwebView.h; sourceTree = "<group>"; };
+		3AE0BBCE1E1D2E540013055C /* WkwebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WkwebView.m; sourceTree = "<group>"; };
 		B7569F7C1DE888C500305942 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		B77516581DED808E002DA9F0 /* XFWKJSPOST.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = XFWKJSPOST.html; sourceTree = "<group>"; };
-		B77C4A7D1DEEA9D0005D5B7E /* backItemImage_hl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backItemImage_hl@2x.png"; sourceTree = "<group>"; };
-		B77C4A7E1DEEA9D0005D5B7E /* backItemImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backItemImage@2x.png"; sourceTree = "<group>"; };
-		B792FE5F1DE73A9000172FCE /* XFWkwebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFWkwebView.h; sourceTree = "<group>"; };
-		B792FE601DE73A9000172FCE /* XFWkwebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFWkwebView.m; sourceTree = "<group>"; };
 		B7C934651DE6BB9A0036667B /* WKWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7C934691DE6BB9A0036667B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B7C9346B1DE6BB9A0036667B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,7 +64,6 @@
 		B7C934891DE6BB9A0036667B /* WKWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7C9348D1DE6BB9A0036667B /* WKWebViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebViewUITests.m; sourceTree = "<group>"; };
 		B7C9348F1DE6BB9A0036667B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B7D51D7C1DEFD4A800981878 /* testimage.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = testimage.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,25 +92,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AE0BBC81E1D2E540013055C /* WkwebView */ = {
+			isa = PBXGroup;
+			children = (
+				3AE0BBC91E1D2E540013055C /* backItemImage@2x.png */,
+				3AE0BBCA1E1D2E540013055C /* backItemImage_hl@2x.png */,
+				3AE0BBCB1E1D2E540013055C /* testimage.gif */,
+				3AE0BBCC1E1D2E540013055C /* WKJSPOST.html */,
+				3AE0BBCD1E1D2E540013055C /* WkwebView.h */,
+				3AE0BBCE1E1D2E540013055C /* WkwebView.m */,
+			);
+			path = WkwebView;
+			sourceTree = "<group>";
+		};
 		B7569F7B1DE888C500305942 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				B7569F7C1DE888C500305942 /* JavaScriptCore.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B792FE591DE73A3600172FCE /* XFWkwebView */ = {
-			isa = PBXGroup;
-			children = (
-				B7D51D7C1DEFD4A800981878 /* testimage.gif */,
-				B77C4A7D1DEEA9D0005D5B7E /* backItemImage_hl@2x.png */,
-				B77C4A7E1DEEA9D0005D5B7E /* backItemImage@2x.png */,
-				B77516581DED808E002DA9F0 /* XFWKJSPOST.html */,
-				B792FE5F1DE73A9000172FCE /* XFWkwebView.h */,
-				B792FE601DE73A9000172FCE /* XFWkwebView.m */,
-			);
-			path = XFWkwebView;
 			sourceTree = "<group>";
 		};
 		B7C9345C1DE6BB9A0036667B = {
@@ -137,7 +137,7 @@
 		B7C934671DE6BB9A0036667B /* WKWebView */ = {
 			isa = PBXGroup;
 			children = (
-				B792FE591DE73A3600172FCE /* XFWkwebView */,
+				3AE0BBC81E1D2E540013055C /* WkwebView */,
 				B7C9346B1DE6BB9A0036667B /* AppDelegate.h */,
 				B7C9346C1DE6BB9A0036667B /* AppDelegate.m */,
 				B7C9346E1DE6BB9A0036667B /* ViewController.h */,
@@ -245,6 +245,7 @@
 					B7C934641DE6BB9A0036667B = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 78933RXJ3U;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					B7C9347D1DE6BB9A0036667B = {
@@ -286,13 +287,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7D51D7D1DEFD4A800981878 /* testimage.gif in Resources */,
+				3AE0BBD21E1D2E540013055C /* WKJSPOST.html in Resources */,
+				3AE0BBCF1E1D2E540013055C /* backItemImage@2x.png in Resources */,
+				3AE0BBD01E1D2E540013055C /* backItemImage_hl@2x.png in Resources */,
+				3AE0BBD11E1D2E540013055C /* testimage.gif in Resources */,
 				B7C934781DE6BB9A0036667B /* LaunchScreen.storyboard in Resources */,
-				B77C4A7F1DEEA9D0005D5B7E /* backItemImage_hl@2x.png in Resources */,
-				B77C4A801DEEA9D0005D5B7E /* backItemImage@2x.png in Resources */,
 				B7C934751DE6BB9A0036667B /* Assets.xcassets in Resources */,
 				B7C934731DE6BB9A0036667B /* Main.storyboard in Resources */,
-				B77516591DED808E002DA9F0 /* XFWKJSPOST.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7C934701DE6BB9A0036667B /* ViewController.m in Sources */,
-				B792FE611DE73A9000172FCE /* XFWkwebView.m in Sources */,
+				3AE0BBD31E1D2E540013055C /* WkwebView.m in Sources */,
 				B7C9346D1DE6BB9A0036667B /* AppDelegate.m in Sources */,
 				B7C9346A1DE6BB9A0036667B /* main.m in Sources */,
 			);
@@ -469,12 +470,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 78933RXJ3U;
 				INFOPLIST_FILE = WKWebView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = XF.WKWebView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WKWebView/XFWkwebView/WKWebView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -482,12 +487,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 78933RXJ3U;
 				INFOPLIST_FILE = WKWebView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = XF.WKWebView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WKWebView/XFWkwebView/WKWebView-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

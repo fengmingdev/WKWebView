@@ -1,13 +1,14 @@
 //
-//  XFWkwebView.m
+//  WkwebView.m
 //  WKWebView
 //
 //  Created by XiaoFeng on 2016/11/24.
 //  Copyright © 2016年 XiaoFeng. All rights reserved.
-//  QQ:1028708571 欢迎骚扰
-//  github链接:https://github.com/XFIOSXiaoFeng/WKWebView
+//  QQ群: 384089763 欢迎加入
+//  github链接: https://github.com/XFIOSXiaoFeng/WKWebView
 
-#import "XFWkwebView.h"
+
+#import "WkwebView.h"
 
 #import <WebKit/WKWebView.h>
 #import <WebKit/WebKit.h>
@@ -18,9 +19,9 @@ typedef enum{
     POSTWebURLString,
 }wkWebLoadType;
 
-static void *XFWkwebBrowserContext = &XFWkwebBrowserContext;
+static void *WkwebBrowserContext = &WkwebBrowserContext;
 
-@interface XFWkwebView ()<WKNavigationDelegate,WKUIDelegate,WKScriptMessageHandler,UINavigationControllerDelegate,UINavigationBarDelegate>
+@interface WkwebView ()<WKNavigationDelegate,WKUIDelegate,WKScriptMessageHandler,UINavigationControllerDelegate,UINavigationBarDelegate>
 
 @property (nonatomic, strong) WKWebView *wkWebView;
 //设置加载进度条
@@ -42,7 +43,7 @@ static void *XFWkwebBrowserContext = &XFWkwebBrowserContext;
 
 @end
 
-@implementation XFWkwebView
+@implementation WkwebView
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -60,6 +61,23 @@ static void *XFWkwebBrowserContext = &XFWkwebBrowserContext;
     UIBarButtonItem *roadLoad = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(roadLoadClicked)];
     self.navigationItem.rightBarButtonItem = roadLoad;
 }
+
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    
+    if (_isNavHidden == YES) {
+        self.navigationController.navigationBarHidden = YES;
+        //创建一个高20的假状态栏
+        UIView *statusBarView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 20)];
+        //设置成绿色
+        statusBarView.backgroundColor=[UIColor whiteColor];
+        // 添加到 navigationBar 上
+        [self.view addSubview:statusBarView];
+    }else{
+        self.navigationController.navigationBarHidden = NO;
+    }
+}
+
 
 - (void)roadLoadClicked{
     [self.wkWebView reload];
@@ -94,8 +112,8 @@ static void *XFWkwebBrowserContext = &XFWkwebBrowserContext;
         case POSTWebURLString:{
             // JS发送POST的Flag，为真的时候会调用JS的POST方法
             self.needLoadJSPOST = YES;
-            //POST使用预先加载本地JS方法的html实现，请确认XFWKJSPOST存在
-            [self loadHostPathURL:@"XFWKJSPOST"];
+            //POST使用预先加载本地JS方法的html实现，请确认WKJSPOST存在
+            [self loadHostPathURL:@"WKJSPOST"];
             break;
         }
     }
@@ -241,6 +259,32 @@ static void *XFWkwebBrowserContext = &XFWkwebBrowserContext;
 //    if (orderInfo.length > 0) {
 //        [self payWithUrlOrder:orderInfo];
 //    }
+//    //拨打电话
+//    //兼容安卓的服务器写法:<a class = "mobile" href = "tel://电话号码"></a>
+//    NSString *mobileUrl = [[navigationAction.request URL] absoluteString];
+//    mobileUrl = [mobileUrl stringByRemovingPercentEncoding];
+//    NSArray *urlComps = [mobileUrl componentsSeparatedByString:@"://"];
+//    if ([urlComps count]){
+//        
+//        if ([[urlComps objectAtIndex:0] isEqualToString:@"tel"]) {
+//            
+//            UIAlertController *mobileAlert = [UIAlertController alertControllerWithTitle:nil message:[NSString stringWithFormat:@"拨号给 %@ ？",urlComps.lastObject] preferredStyle:UIAlertControllerStyleAlert];
+//            UIAlertAction *suerAction = [UIAlertAction actionWithTitle:@"拨号" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+//                
+//                [[UIApplication sharedApplication] openURL:[NSURL URLWithString:mobileUrl]];
+//            }];
+//            UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
+//                return ;
+//            }];
+//            
+//            [mobileAlert addAction:suerAction];
+//            [mobileAlert addAction:cancelAction];
+//            
+//            [self presentViewController:mobileAlert animated:YES completion:nil];
+//        }
+//    }
+    
+    
     switch (navigationAction.navigationType) {
         case WKNavigationTypeLinkActivated: {
             [self pushCurrentSnapshotViewWithRequest:navigationAction.request];
@@ -386,7 +430,7 @@ static void *XFWkwebBrowserContext = &XFWkwebBrowserContext;
         _wkWebView.navigationDelegate = self;
         _wkWebView.UIDelegate = self;
         //kvo 添加进度监控
-        [_wkWebView addObserver:self forKeyPath:NSStringFromSelector(@selector(estimatedProgress)) options:0 context:XFWkwebBrowserContext];
+        [_wkWebView addObserver:self forKeyPath:NSStringFromSelector(@selector(estimatedProgress)) options:0 context:WkwebBrowserContext];
         //开启手势触摸
         _wkWebView.allowsBackForwardNavigationGestures = YES;
         // 设置 可以前进 和 后退
@@ -419,7 +463,11 @@ static void *XFWkwebBrowserContext = &XFWkwebBrowserContext;
 - (UIProgressView *)progressView{
     if (!_progressView) {
         _progressView = [[UIProgressView alloc]initWithProgressViewStyle:UIProgressViewStyleDefault];
-        _progressView.frame = CGRectMake(0, 64, self.view.bounds.size.width, 2);
+        if (_isNavHidden == YES) {
+            _progressView.frame = CGRectMake(0, 20, self.view.bounds.size.width, 3);
+        }else{
+            _progressView.frame = CGRectMake(0, 64, self.view.bounds.size.width, 3);
+        }
         // 设置进度条的色彩
         [_progressView setTrackTintColor:[UIColor colorWithRed:240.0/255 green:240.0/255 blue:240.0/255 alpha:1.0]];
         _progressView.progressTintColor = [UIColor greenColor];
