@@ -4,10 +4,11 @@
 //
 //  Created by XiaoFeng on 2016/11/24.
 //  Copyright © 2016年 XiaoFeng. All rights reserved.
-//
+//  QQ群:384089763 欢迎加入
+//  github链接:https://github.com/XFIOSXiaoFeng/WKWebView
 
 #import "ViewController.h"
-#import "XFWkwebView.h"
+#import "WkwebViewController.h"
 
 @interface ViewController ()
 
@@ -22,7 +23,7 @@
 
 - (IBAction)gotoWebView:(UIButton *)sender {
     
-    XFWkwebView *webView = [[XFWkwebView alloc] init];
+    WkwebViewController *webView = [[WkwebViewController alloc] init];
     [webView loadWebURLSring:@"http://www.baidu.com"];
     
     [self.navigationController pushViewController:webView animated:YES];
