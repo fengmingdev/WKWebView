@@ -35,25 +35,6 @@ HTTPS权限:
 - (void)POSTWebURLSring:(NSString *)string postData:(NSString *)postData;
 ```
 
-Swift版本
-```
-///加载普通URL
-let webView = WKWebViewController()
-webView.loadUrlSting(string: "https://www.baidu.com")
-
-/// 加载本地HTML
-/// 直接传入文件名即可
-let webView = WKWebViewController()
-webView.loadUrlSting(string: fileName)
-
-/// POST方式请求加载
-/// postString: post参数体 详情请搜索swift/oc转义字符（注意格式："\"username\":\"aaa\",\"password\":\"123\""）
-let webView = WKWebViewController()
-webView.loadUrlSting(string: url, postString: postString)
-
-
-```
-
 ![Aaron Swartz](https://github.com/XFIOSXiaoFeng/WKWebView/blob/master/testimage.gif)
 
 
