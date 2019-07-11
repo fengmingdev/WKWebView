@@ -3,7 +3,7 @@ WKWebView 支持POST请求 加载本地页面 直接加载网页 JS交互 集成
 
 #### 感谢大家的支持 OC版本将不再持续更新  纯属业余 QQ群:384089763 欢迎加入
 ##### QQ群会有最新Swift3.0TestDemo版本的发出
-##### Swift3.0WK传送门： https://github.com/My-Old-Driver/SwiftWkWebView
+##### Swift3.0WK传送门： https://github.com/fengmingdev/SwiftWkWebView
 允许访问HTTP链接
 ```
 HTTPS权限:
